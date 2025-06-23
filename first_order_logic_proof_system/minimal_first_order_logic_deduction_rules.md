@@ -38,7 +38,7 @@ Every other common rule—such as those for `or`, `true`, or explicit `not`—ca
 | **10** | **Exists Elimination (existsE)** | Given `Γ ⊢ exists x . φ(x)` and `Γ ∪ {φ(x)} ⊢ ψ`, with **`x` not free in `Γ, ψ`**, infer `Γ ⊢ ψ`. | If something satisfies `φ`, and from that fact (without naming which one) you can derive `ψ`, then `ψ` is true. |
 | **11** | **Equality Substitution (=Subst)** | From `Γ ⊢ s = t` and `Γ ⊢ φ(s)` infer `Γ ⊢ φ(t)`. | Equal terms can replace each other inside any formula. |
 
-### Notes on Rule 7 (“forallI”)
+### Notes on Side Condition
 
 The side‑condition *“`x` not free in Γ”* guarantees that the variable you generalise over is **truly arbitrary**: the proof of `φ(x)` must not rely on any special property of that `x` already encoded in the assumptions.
 
