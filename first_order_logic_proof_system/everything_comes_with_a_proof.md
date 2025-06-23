@@ -1,6 +1,10 @@
 # Everything Comes With a Proof  
 *A first-order-logic blueprint for trustworthy software, hardware, and information*
 
+*Written on April 29, 2025.*
+
+---
+
 > **TL;DR**  
 > Think of three everyday risks:  
 > 1. A browser extension that might exfiltrate your data.  
